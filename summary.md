@@ -7,3 +7,8 @@
 1. **write a test**.Think about how you would like the operation in your mind to appear in your code.
 2. **make it run**.Quickly get that bar green dominates everything else.
 3. **make it right**.Remove the duplication that you have introduced to get to quick green.
+
+# 3 Strategies to get the test green quickly
+- **Fake It** -- return a constant and gradually replace constant with variables util you have the real code.
+- **Obvious Implementation** -- type in the real implementation.
+- **Triangulation**
