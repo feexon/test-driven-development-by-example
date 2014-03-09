@@ -1,20 +1,22 @@
 task :default=>[:test]
 
-$sourceDir="src"
-$outputDir="classes"
+$source_dir="src"
+$output_dir="classes"
 
-directory($outputDir)
-
-task :test => [$outputDir,:set_class_path,:compile] do
-	sh("java -cp #{CLASSPATH} org.junit.runner.JUnitCore MoneyTest")
+def classpath
+	[$output_dir,*Dir["libs/*.jar"]].join(";")
 end
 
-task :set_class_path do
-	CLASSPATH=[$outputDir,*Dir["libs/*.jar"]].join(";")
+def jvm_options
+	["-cp",classpath].join(" ")
 end
 
-task 
+directory($output_dir)
+
+task :test => [$output_dir,:compile] do
+	sh("java #{jvm_options} org.junit.runner.JUnitCore MoneyTest")
+end
 
 task :compile do
-	sh("javac -cp #{CLASSPATH} #{$sourceDir}/*.java -d #{$outputDir}")
+	sh("javac #{jvm_options} #{$source_dir}/*.java -d #{$output_dir}")
 end
