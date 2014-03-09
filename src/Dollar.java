@@ -10,7 +10,8 @@ public class Dollar{
 	}
 
 	public boolean equals(Object that){
-		return true;
+		Dollar money=(Dollar)that;
+		return amount==money.amount;
 	}
 
 }
