@@ -3,3 +3,7 @@
 - make "amount" private
 - ~~side effect~~
 - Money rounding
+- ~~equals~~
+- hashCode
+- equals null
+- equals other objects
