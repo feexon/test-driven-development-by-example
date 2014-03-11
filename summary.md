@@ -6,6 +6,10 @@
 - 降低测试与产品代码之间的依赖，能够创建出低耦合、高内聚的代码。
 
 #TDD cycle - goal[clean code that works]
+> different cycle with different phases,different phases have differnt purposes.
+>	the first two need to go by quickly,so we can get to a known state with the new functionality.you can commit any number of sins to get there,becuase speed trumps design,just for that brief moment.
+
+## **Good Design at good times.Make it run,make it right.**
 
 1. **write a test**.Think about how you would like the operation in your mind to appear in your code.
 2. **make it run**.Quickly get that bar green dominates everything else.
