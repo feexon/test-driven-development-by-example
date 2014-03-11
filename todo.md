@@ -8,3 +8,7 @@
 - ~~make "amount" private~~
 - ~~side effect~~
 - ~~5CHF*2=10CHF
+-	Dollar/Franc duplication
+-	Common equals
+-	Common times
+
