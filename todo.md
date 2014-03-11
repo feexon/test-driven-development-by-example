@@ -7,3 +7,4 @@
 - ~~equals~~
 - ~~make "amount" private~~
 - ~~side effect~~
+- 5CHF*2=10CHF
