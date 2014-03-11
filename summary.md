@@ -3,6 +3,7 @@
 - if you can make the steps too small,you can certainly make steps the right size.if you only take larger steps,you'll never know if smaller steps are appropriate.
 - start with the simple solution and grow the design organically. 
 - add unnecessary items at the moment,and move on to others.
+- 降低测试与产品代码之间的依赖，能够创建出低耦合、高内聚的代码。
 
 #TDD cycle - goal[clean code that works]
 
