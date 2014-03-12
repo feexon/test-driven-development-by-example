@@ -3,7 +3,7 @@ public class Money{
 
 	public boolean equals(Object that){
 		Money money=(Money)that;
-		return amount==money.amount;
+		return amount==money.amount&&getClass()==money.getClass();
 	}
 
 }
