@@ -13,4 +13,4 @@
 - ~~make "amount" private~~
 - ~~side effect~~
 -	~~Common equals~~
--	Dollar/Franc duplication
+-	**Dollar/Franc duplication**
