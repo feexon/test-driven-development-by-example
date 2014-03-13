@@ -4,6 +4,7 @@
 - start with the simple solution and grow the design organically. 
 - add unnecessary items at the moment,and move on to others.
 - 降低测试与产品代码之间的依赖，能够创建出低耦合、高内聚的代码。
+- are the teeny-tiny steps feeling restrictive?Take bigger steps.Are you feeling a little unsure?Take smaller steps.Tdd is a steering process--a little this way,a little that way.There is no right step size,now and forever.
 
 #TDD cycle - goal[clean code that works]
 > different cycle with different phases,different phases have differnt purposes.

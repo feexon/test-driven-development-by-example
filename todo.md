@@ -2,15 +2,15 @@
 -	delete testFrancMultiplication
 - $5+10CHF=$10 if rate is 2:1
 - Money rounding
-- **currency?**
+- ~~currency?~~
 - equals null
 - equals other objects
 - hashCode
-- ~~$5*2=$10~~
-- ~~5CHF*2=10CHF
+- ~~$5~2=$10~~
+- ~~5CHF~2=10CHF
 - ~~Compare Dollars to Francs~~
 - ~~equals~~
 - ~~make "amount" private~~
 - ~~side effect~~
 -	~~Common equals~~
--	~~Dollar/Franc duplication~~
+-	**Dollar/Franc duplication**
