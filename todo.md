@@ -1,4 +1,4 @@
--	Common times
+-	**Common times**
 -	delete testFrancMultiplication
 - $5+10CHF=$10 if rate is 2:1
 - Money rounding
@@ -13,4 +13,4 @@
 - ~~make "amount" private~~
 - ~~side effect~~
 -	~~Common equals~~
--	**Dollar/Franc duplication**
+-	Dollar/Franc duplication
