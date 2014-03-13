@@ -1,3 +1,4 @@
+require "rake/clean"
 task :default=>[:test]
 
 $source_dir="src"
