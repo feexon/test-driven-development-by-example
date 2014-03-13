@@ -17,7 +17,7 @@ public class Money{
 
 	public boolean equals(Object that){
 		Money money=(Money)that;
-		return amount==money.amount&&getClass()==money.getClass();
+		return amount==money.amount&&currency()==money.currency();
 	}
 
 	public Money times(int multiplier){
