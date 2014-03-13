@@ -1,4 +1,4 @@
-abstract public class Money{
+public class Money{
 	protected int amount;
 	protected String currency;
 
@@ -17,11 +17,18 @@ abstract public class Money{
 
 	public boolean equals(Object that){
 		Money money=(Money)that;
-		return amount==money.amount&&getClass()==money.getClass();
+		return amount==money.amount&&currency()==money.currency();
 	}
-	public abstract Money times(int multiplier);
+
+	public Money times(int multiplier){
+		return new Money(amount*multiplier,currency);
+	}
 
 	public String currency(){
 		return currency;
+	}
+
+	public String toString(){
+		return amount+" "+currency;
 	}
 }
