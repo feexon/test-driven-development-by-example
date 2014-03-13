@@ -1,4 +1,4 @@
-abstract public class Money{
+public class Money{
 	protected int amount;
 	protected String currency;
 
@@ -19,9 +19,16 @@ abstract public class Money{
 		Money money=(Money)that;
 		return amount==money.amount&&getClass()==money.getClass();
 	}
-	public abstract Money times(int multiplier);
+
+	public Money times(int multiplier){
+		return null;
+	}
 
 	public String currency(){
 		return currency;
+	}
+
+	public String toString(){
+		return amount+" "+currency;
 	}
 }
