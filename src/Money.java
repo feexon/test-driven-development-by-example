@@ -1,5 +1,6 @@
 abstract public class Money{
 	protected int amount;
+	protected String currency;
 
 	public static Money dollar(int amount){
 		return new Dollar(amount);
@@ -14,5 +15,8 @@ abstract public class Money{
 		return amount==money.amount&&getClass()==money.getClass();
 	}
 	public abstract Money times(int multiplier);
-	public abstract String currency();
+
+	public String currency(){
+		return currency;
+	}
 }
