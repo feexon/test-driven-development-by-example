@@ -1,16 +1,16 @@
+-	Common times
+-	delete testFrancMultiplication
 - $5+10CHF=$10 if rate is 2:1
 - Money rounding
+- **currency?**
 - equals null
 - equals other objects
 - hashCode
 - ~~$5*2=$10~~
+- ~~5CHF*2=10CHF
+- ~~Compare Dollars to Francs~~
 - ~~equals~~
 - ~~make "amount" private~~
 - ~~side effect~~
-- ~~5CHF*2=10CHF
--	~~Dollar/Franc duplication~~
 -	~~Common equals~~
--	Common times
-- ~~Compare Dollars to Francs~~
-- currency?
--	delete testFrancMultiplication
+-	~~Dollar/Franc duplication~~

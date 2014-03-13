@@ -14,5 +14,5 @@ abstract public class Money{
 		return amount==money.amount&&getClass()==money.getClass();
 	}
 	public abstract Money times(int multiplier);
-
+	public abstract String currency();
 }
