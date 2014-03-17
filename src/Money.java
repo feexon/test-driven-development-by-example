@@ -2,11 +2,6 @@ public class Money{
 	protected int amount;
 	protected String currency;
 
-	public Money(int amount,String currency){
-		this.amount=amount;
-		this.currency=currency;
-	}
-
 	public static Money dollar(int amount){
 		return new Money(amount,"USD");
 	}
@@ -15,9 +10,13 @@ public class Money{
 		return new Money(amount,"CHF");
 	}
 
-	public boolean equals(Object that){
-		Money money=(Money)that;
-		return amount==money.amount&&currency()==money.currency();
+	public Money(int amount,String currency){
+		this.amount=amount;
+		this.currency=currency;
+	}
+
+	public Money plus(Money addend){
+		return new Money(amount+addend.amount,currency);
 	}
 
 	public Money times(int multiplier){
@@ -26,6 +25,11 @@ public class Money{
 
 	public String currency(){
 		return currency;
+	}
+
+	public boolean equals(Object that){
+		Money money=(Money)that;
+		return amount==money.amount&&currency()==money.currency();
 	}
 
 	public String toString(){
