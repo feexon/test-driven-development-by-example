@@ -19,6 +19,10 @@ public class Money implements Expression{
 		return new Sum(this,addend);
 	}
 
+	public Money reduce(String currency){
+		return this;
+	}
+
 	public Money times(int multiplier){
 		return new Money(amount*multiplier,currency);
 	}
