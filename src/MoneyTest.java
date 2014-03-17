@@ -32,4 +32,12 @@ public class MoneyTest{
 		assertEquals(Money.dollar(10),reduced);
 	}
 
+	@Test
+	public void testPlusReturnSum(){
+		Money five=Money.dollar(5);
+		Money three=Money.dollar(3);
+		Sum sum=(Sum)five.plus(three);
+		assertEquals(five,sum.augend);
+		assertEquals(three,sum.addend);
+	}
 }
