@@ -17,7 +17,7 @@ public class Bank{
 		}
 		
 		public int hashCode(){
-			return 0;
+			return from.hashCode()^to.hashCode();
 		}
 	}
 
