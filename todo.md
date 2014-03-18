@@ -5,7 +5,7 @@
 - equals other objects
 - hashCode
 - ~~$5+10CHF=$10 if rate is 2:1~~
-- ~~$5~2=$10~~
+- ~~$5*2=$10~~
 - ~~5CHF~2=10CHF
 - ~~Compare Dollars to Francs~~
 - ~~currency?~~
