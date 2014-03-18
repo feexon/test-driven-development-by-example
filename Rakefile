@@ -15,7 +15,7 @@ end
 directory($output_dir)
 
 task :test => [$output_dir,:compile] do
-	sh("java #{jvm_options} org.junit.runner.JUnitCore MoneyTest")
+	sh("java #{jvm_options} org.junit.runner.JUnitCore AllTests")
 end
 
 task :compile do
