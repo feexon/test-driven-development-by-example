@@ -15,3 +15,4 @@
 -	~~Dollar/Franc duplication~~
 -	~~delete testFrancMultiplication~~
 -	~~$5+$5=$10~~
+-	Bank.reduce($5,"USD").should(be($5));
