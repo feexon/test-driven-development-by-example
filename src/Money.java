@@ -20,7 +20,8 @@ public class Money implements Expression{
 	}
 
 	public Money reduce(String currency){
-		return this;
+			int rate=this.currency.equals("CHF")&&currency.equals("USD")?2:1;
+			return new Money(amount/rate,currency);
 	}
 
 	public Money times(int multiplier){
