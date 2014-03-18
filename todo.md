@@ -1,3 +1,7 @@
+-	Bank.reduce($5,"USD").should(be($5));
+-	Expression.times
+-	Sum.plus(Expression)
+-	Sum.plus/Money.plus duplication
 - $5+10CHF=$10 if rate is 2:1
 - Money rounding
 - equals null
@@ -10,11 +14,8 @@
 - ~~equals~~
 - ~~make "amount" private~~
 - ~~side effect~~
+-	~~$5+$5=$10~~
 -	~~Common equals~~
 -	~~Common times~~
 -	~~Dollar/Franc duplication~~
 -	~~delete testFrancMultiplication~~
--	~~$5+$5=$10~~
--	Bank.reduce($5,"USD").should(be($5));
--	Sum.plus(Expression)
--	Expression.times
