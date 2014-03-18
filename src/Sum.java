@@ -6,7 +6,8 @@ public class Sum implements Expression{
 		this.augend=augend;
 		this.addend=addend;
 	}
-	public Money reduce(String currency){
+
+	public Money reduce(Bank bank,String currency){
 		return new Money(augend.amount+addend.amount,currency);
 	}
 }
