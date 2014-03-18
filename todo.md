@@ -16,3 +16,5 @@
 -	~~delete testFrancMultiplication~~
 -	~~$5+$5=$10~~
 -	Bank.reduce($5,"USD").should(be($5));
+-	Sum.plus(Expression)
+-	Expression.times
