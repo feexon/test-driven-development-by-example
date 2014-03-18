@@ -14,4 +14,4 @@
 -	~~Common times~~
 -	~~Dollar/Franc duplication~~
 -	~~delete testFrancMultiplication~~
--	**$5+$5=$10**
+-	~~$5+$5=$10~~
